@@ -10,7 +10,8 @@
 
 ### Folder Structure
 
-![img.png](img.png)
+![image](https://github.com/SaishWadkar/PythonAutomationFramework-Web-API/assets/60892068/0e35ed64-6759-4fbd-b3c6-e0769e5763a3)
+
 
 - Command to run regression test suite for restful booker : 
 
