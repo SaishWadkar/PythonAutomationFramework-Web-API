@@ -1,0 +1,1 @@
+This folder contains Test Cases (TCs) for restful_booker and orange_hrm application.

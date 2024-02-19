@@ -1,0 +1,2 @@
+This folder contains page objects for orangeHRM components.
+Files under each components has locators and its associated action methods to be used in scripting TC in tests folder.
