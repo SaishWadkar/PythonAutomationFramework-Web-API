@@ -31,20 +31,20 @@ from utilities.read_properties import ReadConfig
 #     environment = request.config.getoption("--env")
 #
 #     try:
-#         if environment=="ci":
-#             file = open("configurations/token_credentials_ci_pp2.json")
-#         elif environment == "t20":
-#             file = open("configurations/token_credentials_t20_pp4.json")
+#         if environment=="dev":
+#             file = open("configurations/dev.json")
+#         elif environment == "trial":
+#             file = open("configurations/trial.json")
 #         else:
-#             file = open("configurations/token_credentials_t20_pp4.json")
+#             file = open("configurations/dev.json")
 #
 #         data = json.load(file)
 #
 #         # for i, j in data.items():
 #         #     print(f"Key : {i} --- Value : {j}")
 #
-#         url = data['pu']+data['ot']
-#         payload = f"grant_type=password&username={data['saak']}&password={data['sask']}"
+#         url = ""
+#         payload = f"grant_type=password&username={data['username']}&password={data['password']}"
 #         encoded_username_password = base64_encoding(data['ci']+":"+data['cs'])
 #         headers = {
 #             'Content-Type': 'application/x-www-form-urlencoded',
